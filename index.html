@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Student-Management</title>
+</head>
+<body>
+    <h1>Student Management CRUD</h1>
+    <form id="form" action="">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="gpa" placeholder="Gpa">
+        <input type="number" id="age" placeholder="Age">
+        <input type="text" id="degree" placeholder="Degree">
+        <button type="submit" id="btn">Add Student</button>
+    </form>
+    <div class="search">
+        <input type="text" id="search-box" placeholder="Search By Name, email or degree">
+    </div>
+    <div id="table-container">
+        <div class="row-header">
+            <div class="cell" id="id">ID</div>
+            <div class="cell" id="student-name">Student Name</div>
+            <div class="cell" id="student-email">Email</div>
+            <div class="cell" id="student-age">Age</div>
+            <div class="cell" id="student-gpa">GPA</div>
+            <div class="cell" id="student-degree">Degree</div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

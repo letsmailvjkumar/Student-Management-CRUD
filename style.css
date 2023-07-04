@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 2%;
+    background-color: #171717;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    color: white;
+    font-weight: 500;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+input{
+   margin-top: 2%;
+   padding-left: 10px;
+   width: 30%;
+   height: 30px;
+   background-color: #171717;
+   color: white;
+   border: 1px solid white;
+}
+#btn{
+    margin-top: 2%;
+    width: 35%;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+}
+.search > input{
+    margin-top: 3%;
+    width: 100%;
+    color: white;
+}
+
+.row-header{
+    margin-top: 5%;
+    border-collapse: collapse;
+    display:flex;
+    flex-direction:row;
+    border-width:20%;
+    justify-content:flex-start;
+    text-align: center;
+  }
+  .cell{
+   border: 1px solid white;
+   padding:5px;
+   width:100%;
+   color:white
+  }
+  #id{
+    width: 5%;
+  }
+  #student-name{
+    width: 20%;
+  }
+  #student-email{
+    width: 20%;
+  }
+  #student-age{
+    width: 10%;
+  }
+  #student-gpa{
+    width: 10%;
+  }
+  #student-degree{
+    width: 15%;
+  }
+  .table {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .row .cell {
+    text-align: center;
+  }
+  
